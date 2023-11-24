@@ -1,0 +1,27 @@
+{
+  "name": "Find Job",
+  "short_name": "Find Job",
+  "icons": [
+    {
+      "src": "/images/FindJobBlue.png",
+      "sizes": "100x100",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/FindJobBlue.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/FindJobBlue.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "start_url": "/login",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,8 @@
+.searchcontainer {
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.searchcontainer.active {
+  transform: translateX(0);
+}
