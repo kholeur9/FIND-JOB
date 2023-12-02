@@ -3,19 +3,19 @@
   "short_name": "Find Job",
   "icons": [
     {
-      "src": "/images/FindJobBlue.png",
-      "sizes": "100x100",
+      "src": "/images/FindJob.png",
+      "sizes": "600x600",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/images/FindJobBlue.png",
-      "sizes": "100x100",
+      "src": "/images/FindJob.png",
+      "sizes": "600x600",
       "type": "image/png"
     },
     {
-      "src": "/images/FindJobBlue.png",
-      "sizes": "100x100",
+      "src": "/images/FindJob.png",
+      "sizes": "600x600",
       "type": "image/png"
     }
   ],

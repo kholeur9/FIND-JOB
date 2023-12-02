@@ -7,10 +7,10 @@ interface InputFormProps {
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   error: string;
-  // Ajout d'un point-virgule ici
+  height: boolean;
 }
 
-export const InputForm: React.FC<InputFormProps> = ({ type, name, placeholder, value, onChange, className, error, inputClassName }) => {
+export const InputForm: React.FC<InputFormProps> = ({ type, name, placeholder, value, onChange, error, height}) => {
   return (
     <div className="mt-2.5 mb-2.5 w-full">
       <input 
@@ -25,12 +25,14 @@ export const InputForm: React.FC<InputFormProps> = ({ type, name, placeholder, v
           rounded-md
           border
           border-gray-400
+          focus:outline-none focus:ring-2 focus:border-sky-500
           outline-none`,
-          error && 'border-2 border-red-500 placeholder-red-500'
+          error && 'border-[1.5px] border-red-600 placeholder-red-600',
+          height ? 'h-[60px]' : 'h-[50px]',
           )}
         autoComplete="off"
       />
-      <span className="text-sm text-red-500 font-semibold">{error}</span>
+      <span className="text-sm text-red-600 font-semibold">{error}</span>
     </div>
   );
 };
